@@ -106,7 +106,7 @@ function resultPage(result) {
     success: result.success,
     message: result.message
   });
-  const html = "<!doctype html><html><body><script>window.parent.postMessage(" +
+  const html = "<!doctype html><html><body><script>window.top.postMessage(" +
     message +
     ", '*');</script></body></html>";
 
