@@ -1,4 +1,4 @@
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyA-27UoxUHSXohLSRU5lKIYwfwfEEOFNMUWPVDdSXzhgeLvOfaEderryV2o_futSZQdA/exec";
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbza08CGh_2rXDNp95-F2C4oMbGwU1dfZ51wJTbrmB1ZrFYIt0R46db7WK-NV8PUh9uOoA/exec";
 
 const form = document.querySelector("#registration-form");
 const submitButton = document.querySelector("#submit-button");
