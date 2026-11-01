@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#07152d">
+    <meta name="description" content="靈知科技智慧多國語言旅客自助 CHECK IN 軟體試用申請">
+    <title>智慧旅宿自助入住｜靈知科技試用申請</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="event-heading">
+        <a class="brand" href="#" aria-label="靈知科技">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-copy"><strong>靈知科技</strong><small>WISE TECHNOLOGY</small></span>
+        </a>
+        <span class="eyebrow"><span class="live-dot"></span> HOTEL TECH · 2026</span>
+        <h1>靈知科技智慧多國語言旅客<br class="mobile-break">自助 CHECK IN 軟體試用申請</h1>
+        <p>讓旅客入住更順暢，讓櫃檯營運更有效率。</p>
+      </header>
+
+      <main>
+        <section class="cover-panel" aria-label="活動圖片">
+          <img src="cover.png" alt="靈知科技智慧旅宿自助入住軟體介紹">
+          <div class="cover-overlay">
+            <span class="cover-label">SMART HOTEL · SELF CHECK-IN</span>
+            <span class="cover-caption">從旅客報到到櫃檯營運，開啟智慧旅宿新體驗</span>
+          </div>
+        </section>
+
+        <div class="content-grid">
+          <section class="feature-panel" aria-labelledby="features-title">
+            <div class="section-kicker">SOFTWARE OVERVIEW <span>01 / 02</span></div>
+            <h2 id="features-title">讓每一次入住，<br><span>都更簡單。</span></h2>
+            <p class="section-intro">整合旅宿現場常見作業與支付流程，依照飯店需求靈活搭配。</p>
+
+            <ul class="feature-list">
+              <li><span class="feature-icon">01</span><span>多國語言介面：中、英、日、韓、泰、印尼、越南、簡中、西班牙等</span></li>
+              <li><span class="feature-icon">02</span><span>Check In / Check Out</span></li>
+              <li><span class="feature-icon">03</span><span>官網 OTA 預訂連結<small>需另租 CM 串接系統</small></span></li>
+              <li><span class="feature-icon">04</span><span>住宿、Day use</span></li>
+              <li><span class="feature-icon">05</span><span>與櫃檯作業系統並行運作</span></li>
+              <li><span class="feature-icon">06</span><span>開立電子發票<small>需已採用靈知電子發票</small></span></li>
+              <li><span class="feature-icon">07</span><span>信用卡及第三方支付線上收款</span></li>
+              <li><span class="feature-icon">08</span><span>悠遊卡、一卡通製房卡<small>需門鎖系統支援</small></span></li>
+              <li><span class="feature-icon">09</span><span>QR Code 預約訂房報到<small>QR Code 設備需自行採購</small></span></li>
+              <li><span class="feature-icon">10</span><span>現場自助入住手續<small>建議搭配觸控螢幕電腦，亦可使用滑鼠</small></span></li>
+              <li><span class="feature-icon">11</span><span>證件辨識系統<small>需自購靈知證件辨識系統</small></span></li>
+            </ul>
+            <div class="feature-footnote"><span aria-hidden="true">✦</span> 試用內容與串接條件可於申請後洽詢。</div>
+          </section>
+
+          <section class="form-panel" aria-labelledby="form-title">
+            <div class="section-kicker">REQUEST A TRIAL <span>02 / 02</span></div>
+            <h2 id="form-title">申請軟體試用</h2>
+            <p class="form-intro">填寫以下資料，我們將與您聯繫試用事宜。</p>
+
+            <form id="registration-form">
+              <label for="hotel">飯店名稱 <span>必填</span></label>
+              <input id="hotel" name="hotel" type="text" autocomplete="organization" placeholder="請輸入飯店名稱" required>
+
+              <div class="field-pair">
+                <div>
+                  <label for="name">姓名 <span>必填</span></label>
+                  <input id="name" name="name" type="text" autocomplete="name" placeholder="您的姓名" required>
+                </div>
+                <div>
+                  <label for="title">職稱 <span>必填</span></label>
+                  <input id="title" name="title" type="text" autocomplete="organization-title" placeholder="例如：總經理" required>
+                </div>
+              </div>
+
+              <label for="email">Email <span>必填</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="name@hotel.com" required>
+
+              <label for="phone">電話 <span>必填</span></label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="請輸入聯絡電話" required>
+
+              <p class="privacy-note">送出即表示同意靈知科技使用上述資料聯繫您，僅供本次試用申請使用。</p>
+              <button id="submit-button" type="submit">送出試用申請 <span aria-hidden="true">↗</span></button>
+              <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+            </form>
+            <iframe id="submission-frame" name="submission-frame" title="表單送出結果" class="submission-frame"></iframe>
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <span>© 2026 靈知科技 WISE TECHNOLOGY</span>
+        <a href="https://www.wise.com.tw/" target="_blank" rel="noreferrer">www.wise.com.tw</a>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
