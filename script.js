@@ -27,7 +27,7 @@ form.addEventListener("submit", (event) => {
 
 window.addEventListener("message", (event) => {
   if (
-    !event.origin.endsWith(".script.googleusercontent.com") ||
+    !event.origin.endsWith("-script.googleusercontent.com") ||
     event.data?.channel !== "wise-registration"
   ) {
     return;
