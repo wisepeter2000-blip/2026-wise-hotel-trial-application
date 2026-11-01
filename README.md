@@ -2,6 +2,8 @@
 
 靈知科技智慧多國語言旅客自助 CHECK IN 軟體試用申請頁面。
 
+網站：<https://wisepeter2000-blip.github.io/2026-wise-hotel-trial-application/>
+
 ## Google 試算表與表單服務
 
 1. 在 [Google Apps Script](https://script.google.com/) 建立新專案，將 `apps-script/Code.gs` 貼入編輯器並儲存。
